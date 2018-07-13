@@ -28,7 +28,7 @@
         <activity android:name="LineChartActivity2"></activity>
         <activity android:name=".LineChartTime"></activity>
         <activity android:name="BarChartActivity"></activity>
-		<activity android:name="HorizontalBarChartActivity"></activity>
+        <activity android:name="HorizontalBarChartActivity"></activity>
         <activity android:name="PieChartActivity"></activity>
         <activity android:name="PiePolylineChartActivity"></activity>
         <activity android:name="MultiLineChartActivity"></activity>
@@ -58,6 +58,7 @@
         <activity android:name=".realm.RealmMainActivity"></activity>
         <activity android:name="RealtimeLineChartActivity"></activity>
         <activity android:name="CombinedChartActivity"></activity>
+        <activity android:name="CombinedChartActivity2"></activity>
         <activity android:name="PerformanceLineChart"></activity>
         <activity android:name="BarChartActivitySinus"></activity>
         <activity android:name="ScrollViewActivity"></activity>
@@ -65,6 +66,7 @@
         <activity android:name=".realm.RealmWikiExample"></activity>
         <activity android:name=".BarChartPositiveNegative"></activity>
         <activity android:name=".FilledLineActivity"></activity>
+        <activity android:name=".FilledLineActivity2"></activity>
         <activity android:name=".HalfPieChartActivity"></activity>
     </application>
 

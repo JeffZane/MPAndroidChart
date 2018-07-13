@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.ScatterChart;
 import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.Legend.LegendPosition;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
@@ -183,11 +182,13 @@ public class ScatterChartActivity extends DemoBase implements OnSeekBarChangeLis
         ScatterDataSet set1 = new ScatterDataSet(yVals1, "DS 1");
         set1.setScatterShape(ScatterChart.ScatterShape.SQUARE);
         set1.setColor(ColorTemplate.COLORFUL_COLORS[0]);
+
         ScatterDataSet set2 = new ScatterDataSet(yVals2, "DS 2");
         set2.setScatterShape(ScatterChart.ScatterShape.CIRCLE);
         set2.setScatterShapeHoleColor(ColorTemplate.COLORFUL_COLORS[3]);
         set2.setScatterShapeHoleRadius(3f);
         set2.setColor(ColorTemplate.COLORFUL_COLORS[1]);
+
         ScatterDataSet set3 = new ScatterDataSet(yVals3, "DS 3");
         set3.setShapeRenderer(new CustomScatterShapeRenderer());
         set3.setColor(ColorTemplate.COLORFUL_COLORS[2]);
